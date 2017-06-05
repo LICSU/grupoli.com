@@ -1,0 +1,788 @@
+﻿@model GrupoLi.Models.Email
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<!--.preloader-->
+<div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+<!--/.preloader-->
+
+<header id="home">
+
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active" style="background-image: url(../../images/slider/img_1.jpg)">
+                <div class="caption">
+                    <h1 class="animated fadeInLeftBig">Bienvenido a <span>Grupo</span>Li</h1>
+                    <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us">Comience Ahora!</a>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(../../images/slider/img_3.jpg)">
+                <div class="caption">
+                    <h1 class="animated fadeInLeftBig"><span>S</span>istema de <span>G</span>estión de <span>S</span>eguridad y <span>S</span>alud en el <span>T</span>rabajo</h1>
+                    <p class="animated fadeInRightBig">Modelo integrado que usa software y soporte humano para gestionar las necesidades de seguridad y salud en el trabajo.</p>
+                    <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us">Más Detalles</a>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(../../images/slider/img_2.jpg)">
+                <div class="caption">
+                    <h1 class="animated fadeInLeftBig">Medic <span>Li</span></h1>
+                    <p class="animated fadeInRightBig">Sistema inteligente que trabaja con sensores para evaluar condiciones biomédicas</p>
+                    <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us">Más Detalles</a>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(../../images/slider/img_4.jpg)">
+                <div class="caption">
+                    <h1 class="animated fadeInLeftBig">Recogni<span>ti</span>on</h1>
+                    <p class="animated fadeInRightBig">Motor de reconocimiento facial aplicado a múltiples modelos de negocios</p>
+                    <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us">Más Detalles</a>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(../../images/slider/img_5.jpg)">
+                <div class="caption">
+                    <h1 class="animated fadeInLeftBig">Fitness L<span>i</span></h1>
+                    <p class="animated fadeInRightBig">Sevicio para gestionar la participación de personas en programas de actividad física.</p>
+                    <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us">Más Detalles</a>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(../../images/slider/img_6.jpg)">
+                <div class="caption">
+                    <h1 class="animated fadeInLeftBig"><span>P</span>ower L<span>i</span></h1>
+                    <p class="animated fadeInRightBig">Sistema de entrenamiento físico, que integra la realidad y ambientes <br />virtuales para crear escenarios que activan todos los sentidos.</p>
+                    <a data-scroll class="btn btn-start animated fadeInUpBig" href="#about-us">Más Detalles</a>
+                </div>
+            </div>
+        </div>
+        <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+        <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+        <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+    </div>
+
+    <div class="main-nav">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">
+                    <h1><img class="img-responsive" src="../../images/LogoGrupoLi.png" alt="logo"></h1>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="scroll active"><a href="#home">Inicio</a></li>
+                    <li class="scroll"><a href="#about-us">La Empresa</a></li>
+                    <li class="scroll"><a href="#Equipo">Equipo</a></li>
+                    <li class="scroll"><a href="#blog">Productos</a></li>
+                    <li class="scroll"><a href="#contact">Contacténos</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<section id="about-us" class="parallax">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <h1>Nuestra Empresa</h1>
+                    <p>Grupo Li, es un equipo multidisciplinario que analiza, define y desarrolla nuevas soluciones a problemas o situaciones que se identifican como cuellos de botella para sistemas productivos o sociales, aportando nuevas opciones con mayor eficacia y/o eficiencia.</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms">
+                        <p class="lead">Análisis númerico y matemático</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="99">99%</div>
+                        </div>
+                    </div>
+                    <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+                        <p class="lead">Análisis, diseño e implementación del software en el contexto de la solución</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="90">90%</div>
+                        </div>
+                    </div>
+                    <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <p class="lead">Análisis de contexto (legal y de procesos industriales)</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="95">95%</div>
+                        </div>
+                    </div>
+                    <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <p class="lead">2D, 3D e interactividad y realidad virtual.</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="95">95%</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Equipo" style="padding-top:0">
+    <section id="twitter" class="parallax">
+        <div>
+            <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+            <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+                            <h2>Nuestro Equipo</h2>
+                            <p>Contamos con un equipo profesional y multidisciplinario, orientado a la responsabilidad y compromiso que son la clave en nuestra empresa para ofrecerle productos, servicio y soporte</p>
+                        </div>
+                        <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                    <div class="row">
+                                        <h2>Departamento PQR</h2>
+                                        <div class="col-sm-4"></div>
+                                        <div class="col-sm-3">
+                                            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                                <div class="member-image">
+                                                    <img class="img-responsive" src="../../images/team/juan.jpg" alt="">
+                                                </div>
+                                                <div class="member-info">
+                                                    <h3>Juan Castrillón</h3>
+                                                    <h4>Economista-Director</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h2>Dpto. Conocimiento Especializado</h2>
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/maria.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Maria Soledad</h3>
+                                                <h4>Ing. Industrial</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/julio.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Julio Morfe</h3>
+                                                <h4>Ing. Geofísico y Matemático </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/jorge.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Jorge Marcano</h3>
+                                                <h4>Abogado</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h2>Dpto. Conocimiento Especializado</h2>
+                                    <div class="col-sm-3"></div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/cristian.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Cristian Serna</h3>
+                                                <h4>Ing. Electrónico</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/hairol.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Hairol Pacheco</h3>
+                                                <h4>Matemático</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h2>Dpto. de Sistemas</h2>
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/jesusg.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Jesús García</h3>
+                                                <h4>Ing. en Informática</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/robert.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Roberth Ortiz</h3>
+                                                <h4>Ing. en Informática</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/miguel.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Miguel Garcés</h3>
+                                                <h4>Ing. Desarrollo</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h2>Dpto. Diseño y Animación</h2>
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/victor.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Victor Reyes</h3>
+                                                <h4>Animador de Caracteres 3d, Diseño Digital</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/eliana.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Eliana Aranguren</h3>
+                                                <h4>Animador de Caracteres 3d, Diseño Digital</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/donaldo.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Donaldo Palma</h3>
+                                                <h4>Ingeniero en Sistemas</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h2>Dpto. Técnicas y Entrenamiento Físico</h2>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/carolina.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Carolina Suarez</h3>
+                                                <h4>Enfermera y Profesional en Deporte </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/andrea.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Andrea Botero</h3>
+                                                <h4>Profesional en Deportes</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/mateo.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Mateo Otalvaro</h3>
+                                                <h4>Profesional en Deportes y Bailarin</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/jhon.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Jhon Alexander</h3>
+                                                <h4>Profesional en Deportes y Bailarin</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h2>Dpto. Técnicas y Entrenamiento Físico</h2>
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/alana.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Alanna Vera</h3>
+                                                <h4>Profesora y Profesional en Salud Ocupacional</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/carol.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Carolina Cardona</h3>
+                                                <h4>Profesora y Trabajadora Social</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                            <div class="member-image">
+                                                <img class="img-responsive" src="../../images/team/liliana.jpg" alt="">
+                                            </div>
+                                            <div class="member-info">
+                                                <h3>Liliana Ochoa</h3>
+                                                <h4>Profesora </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="parallax">
+        <div class="container">
+            <div class="row count">
+                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="100ms">
+                    <i class="fa fa-keyboard-o"></i>
+                    <h3 class="timer">5000</h3>
+                    <p>HORAS PROGRAMADAS</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <i class="fa fa-desktop"></i>
+                    <h3 class="timer">16</h3>
+                    <p>PAQUETES DE PRODUCTOS</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <i class="fa fa-university"></i>
+                    <h3>24/7</h3>
+                    <p>ASESORÍA</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <i class="fa fa-comment-o"></i>
+                    <h3>24/7</h3>
+                    <p>SOPORTE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+                <h2>Nuestros Productos</h2>
+            </div>
+        </div>
+        <div class="blog-posts">
+            <div class="row">
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="post-thumb">
+                        <div id="post-carousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="img-responsive" src="~/images/slider/img_2.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>1) Somos Uno </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "SomosUno" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Sistema diseñado para consolidar en un solo indicador de manera cuantitativa y visual
+                                            (AVATAR) el riesgo de enfermedad de la organización.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_2.jpg" alt="" />
+                                    <div class="entry-header">
+                                        <h3><strong>2) Heart + Somos Uno </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Heart_SomosUno" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Sistema que se enfoca de manera más detallada en el músculo cardíaco, manteniendo las
+                                            lecturas de la secuencia de volumen corporal.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_2.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>3) Heart </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Heart" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Sistema enfocado más detalladamente en el músculo cardíaco, con especial utilidad en aquellas personas
+                                            con antecedentes familiares de hipertensión arterial y enfermedades cardiovasculares, o que presenten
+                                            algunas de estas enfermedades.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_2.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>4) Heart + Somos Uno + Metabolismo </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Heart_SomosUno_Metabolismo" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Siendo la Diabetes una de las Enfermedades crónicas no transmisibles que afecta gran cantidad de
+                                            personas a nivel mundial, capaz de agravar problemas pre existentes cardíacos, y ser origen de
+                                            discapacidades importantes.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_2.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>5) Metabolismo </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Metabolismo" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Sistema de apoyo en la gestión de salud preventiva, mide los grandes marcadores sanguíneos Azúcar y
+                                            Grasas en sangre.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_2.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>6) Estrés como riesgo Psicosocial </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Psicosocial" })">+ Detalles</a></h3>
+                                    </div>
+
+
+                                    <p style="text-align:justify">
+                                        Este sistema ha sido diseñado para la medición de riesgos psicosociales en cualquier tipo de trabajo,
+                                        utilizando cuestionarios estandarizados, método epidemiológico y método físico.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="blog-left-control" href="#post-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                        <a class="blog-right-control" href="#post-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="post-thumb">
+                        <div id="post-carousel1" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="img-responsive" src="~/images/slider/img_3.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>SGSSTC </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "SGSSTC" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            El sistema actuará como un apoyo experto en el análisis de las matrices (legales y de
+                                            riesgos), en la definición de los sistemas de gestión, en la administración de las
+                                            responsabilidades que de allí se derivan y en el seguimiento y comunicación a los agentes
+                                            internos y externos que requieran participar o ser comunicados de los procesos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="blog-left-control" href="#post-carousel1" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                            <a class="blog-right-control" href="#post-carousel1" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="post-thumb">
+                        <div id="post-carousel2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="img-responsive" src="~/images/slider/img_4.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>1) Recognition Hotel </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Recognition_Hotel" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Sistema de reconocimiento facial que permite asignar de manera confiable atribuciones
+                                            de uso a una identidad facial, misma que será distintiva con un 100% de confiabilidad.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_4.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>2) Transporte público individual </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Transporte_publico_individual" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Sistema de reconocimiento facial que aumenta la confianza entre el conductor y el pasajero
+                                            sobre la identidad de cada parte en el servicio y la consulta sobre la existencia de reseñas
+                                            de comportamientos que caractericen a ambos.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_4.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>3) Transporte público masivo </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Transporte_publico_masivo" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Sistema de reconocimiento que permite identificar a los individuos en fila de ingreso, validar el saldo
+                                            de su cuenta y autorizar su ingreso si cumple el saldo para el pasaje.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_4.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>4) Big-bro </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Big-bro" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Sistema de apoyo a la administración y atención proactiva de público asistente a eventos deportivos.
+                                            Gestión del proceso desde el ingreso hasta la salida incluyendo el comportamiento durante el evento.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_4.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>5) Ciudad Segura </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Ciudad_Segura" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Ciudad segura es un servicio que ayuda a cerrar el anillo que se inicia con servicios como
+                                            Recognition Hotel, Trasporte público Individual, Transporte público Masivo y Big-bro, para crear
+                                            una capa de seguridad en torno a espacios de uso o afectación pública o que son especialmente
+                                            sensibles al interés colectivo.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_4.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>6) Real Li </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Real_Li" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Sistema desarrollado para identificar los patrones o gustos en referencia a prendas de vestir con los que
+                                            se identifica cada sujeto. Este modelo se construye a partir de la presencia en redes sociales.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="blog-left-control" href="#post-carousel2" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                            <a class="blog-right-control" href="#post-carousel2" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1"></div>
+
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="post-thumb">
+                        <div id="post-carousel3" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="img-responsive" src="~/images/slider/img_5.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>1) Empresas </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Empresas" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Estar saludable es el estado natural del ser humano cuando cumple la regla de oro
+                                            de una correcta alimentación, hábitos de vida adecuados y un ritmo de actividad físico
+                                            acorde a su edad y características particulares.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img class="img-responsive" src="~/images/slider/img_5.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>2) Academias </strong><a target="_blank" href="@Url.Action("Detalles", "Home", new { id = "Academias" })">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Estar saludable es el estado natural del ser humano cuando cumple la regla de oro
+                                            de una correcta alimentación, hábitos de vida adecuados y un ritmo de actividad físico
+                                            acorde a su edad y características particulares.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="blog-left-control" href="#post-carousel3" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                            <a class="blog-right-control" href="#post-carousel3" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-2"></div>
+
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="post-thumb">
+                        <div id="post-carousel4" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="img-responsive" src="~/images/slider/img_6.jpg" alt="">
+                                    <div class="entry-header">
+                                        <h3><strong>Power Li </strong><a href="@Url.Action("Detalles", "Home", new { id = "Power_Li" })" target="_blank">+ Detalles</a></h3>
+                                    </div>
+                                    <div class="entry-content">
+                                        <p style="text-align:justify">
+                                            Sistema hibrido construido entre herramientas de realidad virtual, sensores, equipos de
+                                            entrenamiento físico y ambientación inmersiva para lograr experiencias que permitan activar
+                                            todos los sentidos.
+                                        </p>
+                                    </div>
+                                </div>
+                                <a class="blog-left-control" href="#post-carousel4" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                                <a class="blog-right-control" href="#post-carousel4" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section id="contact">
+    <div id="contact-us" class="parallax">
+        <div class="container">
+            <div class="row">
+                <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <h2>Contacténos</h2>
+                    <p>En GrupoLi nos interesa que estes bien informado, si deseas comunciarte con nosotros o deseas información mas detallada de algunos de nuestros productos envíanos un correo.</p>
+                </div>
+            </div>
+            <div class="contact-form wow fadeIn">
+                <div class="row">
+                    <div class="col-sm-6">
+                        @using (Html.BeginForm("SendEmail", "Home", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <div class="row  wow fadeInUp">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control", placeholder="Nombre" })
+                                        @Html.ValidationMessageFor(m => m.Nombre)
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        @Html.TextBoxFor(m => m.FromEmail, new { @class = "form-control", placeholder = "Email" })
+                                        @Html.ValidationMessageFor(m => m.FromEmail)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.TextBoxFor(m => m.Asunto, new { @class = "form-control", placeholder = "Asunto" })
+                                @Html.ValidationMessageFor(m => m.Asunto)
+                            </div>
+
+                            <div class="form-group">
+                                    @Html.TextAreaFor(m => m.Mensaje, new { @class = "form-control", placeholder = "Mensaje" })
+                                    @Html.ValidationMessageFor(m => m.Mensaje)
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn-submit">Enviar Ahora</button>
+                            </div>
+                        }
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <ul class="address">
+                                <li><i class="fa fa-map-marker"></i> <span> Dirección:</span> Calle 10A Numero 40-60 Medellín - Colombia</li>
+                                <li><i class="fa fa-phone"></i> <span> Teléfono:</span> (57) 300-3189349 / (57) 300-3189349  </li>
+                                <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:someone@yoursite.com"> pqr@grupoli.com</a></li>
+                                <li><i class="fa fa-globe"></i> <span> Sitio Web:</span> <a href="#">www.grupoli.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="google-map" class="wow fadeIn">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.402105912678!2d-75.57036058523093!3d6.210578395504084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442829630a2a17%3A0xff7532c5f308b5bf!2sCl+10A+%2340-60%2C+Medell%C3%ADn%2C+Antioquia%2C+Colombia!5e0!3m2!1ses!2ses!4v1496067309166"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="container text-center">
+            <div class="footer-logo">
+                <a href="index"><img class="img-responsive" src="../../images/LogoGrupoLi.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>&copy; 2017 GrupoLi.</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="pull-right">Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,108 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+}
+
+.member-image > .img-responsive {
+    border-radius: 134px 134px 134px 134px;
+    border: 0px solid #000000;
+}
+
+.blog-left-control, .blog-right-control {
+    top: 25%;
+}
+
+.container_acordeon div .single-table:hover {
+    background-color: #913d88;
+    color: #fff;
+}
+
+.container_acordeon div .single-table:hover h3 {
+    color: #fff;
+}
+
+.container_acordeon div .single-table {
+    background-color: #fff;
+}
+.container_acordeon div .price {
+    background-color: #fff;
+}
+.container_acordeon div .single-table:hover .price {
+    background-color: #913d88;
+}
+.container_acordeon div .single-table:hover .btn.btn-primary {
+    background-color: #fff;
+    color: #913d88;
+}
+#portfolio .folio-item:hover .folio-image {
+    -webkit-animation: cssAnimation 2.0651s 1 linear;
+    -moz-animation: cssAnimation 2.0651s 1 linear;
+    -o-animation: cssAnimation 2.0651s 1 linear;
+}
+
+@-webkit-keyframes cssAnimation {
+    from {
+        -webkit-transform: rotate(0deg) scale(1.101) skew(1deg) translate(0px);
+    }
+
+    to {
+        -webkit-transform: rotate(0deg) scale(1.365) skew(1deg) translate(0px);
+    }
+}
+
+@-moz-keyframes cssAnimation {
+    from {
+        -moz-transform: rotate(0deg) scale(1.101) skew(1deg) translate(0px);
+    }
+
+    to {
+        -moz-transform: rotate(0deg) scale(1.365) skew(1deg) translate(0px);
+    }
+}
+
+@-o-keyframes cssAnimation {
+    from {
+        -o-transform: rotate(0deg) scale(1.101) skew(1deg) translate(0px);
+    }
+
+    to {
+        -o-transform: rotate(0deg) scale(1.365) skew(1deg) translate(0px);
+    }
+}
+
+.form-control:focus {
+    border-color: #fff;
+}
+.btn.btn-primary:hover, .btn-submit:hover {
+    background-color: #fff;
+    color: #913d88;
+}
